@@ -1,0 +1,62 @@
+body{
+    background-image: url(2.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    
+} 
+.bod{
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    margin-left: 450px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 2em;
+    background-color: white;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-top: cornsilk;
+    border-left: cornsilk;
+    border-right: cornsilk;
+}
+img{
+      width: 50px;
+     height: 60px;
+}
+.black{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border-color: gray;
+    width: 100px;
+    height: 30px;
+    border-width: thin;
+    border-radius: 10px;
+}
+.start{
+    margin-right: 250px;
+}
+/* .li{
+    margin-right: 200px;
+} */
+.butt{
+    margin-left: 100px;
+}
+/* .butto{
+    margin-right: 450px;
+} */
+.radio{
+    width: 20px;
+    height: 20px;
+}
