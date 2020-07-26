@@ -1,22 +1,22 @@
 body{
-    background-image: url(2.jpg);
+    background-image: url(605e1ff43be5659656fdf1d8c9ba06e5.jpg);
     background-position: top;
     background-size: 100%;
-    background-repeat: repeat-y;
+    
     
 } 
 .bod{
-    background-color: white;
     width: 600px;
     text-align: center;
     margin-left: 450px;
 }
 
 h1{
+    color: black;
     text-align: center;
-    text-shadow: 2px 2px 3px grey;
-    font-size: 2em;
-    background-color: white;
+    text-shadow: 4px 4px 10px grey;
+    font-size: 3em;
+    
 }
 input{
     width: 300px;
@@ -24,13 +24,15 @@ input{
     border-top: cornsilk;
     border-left: cornsilk;
     border-right: cornsilk;
+    background-color: transparent;
+    color: black;
 }
 img{
       width: 50px;
      height: 60px;
 }
 .black{
-    background-color: black;
+
     width: 100%;
     height: 50px;
 }
@@ -47,16 +49,46 @@ button{
 .start{
     margin-right: 250px;
 }
-/* .li{
-    margin-right: 200px;
-} */
 .butt{
     margin-left: 100px;
 }
-/* .butto{
-    margin-right: 450px;
-} */
+
 .radio{
     width: 20px;
     height: 20px;
+    margin-right: 20px;
+}
+.d{
+    margin-left: 20px;
+    margin-right: 200px;
+}
+@media only screen and (max-width: 900px) {
+    .bod{
+        width: 600px;
+        text-align: center;
+        margin-left: 150px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .bod{
+        width: 600px;
+        text-align: center;
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .bod{
+        width: 400px;
+        text-align: center;
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .bod{
+        width: 200px;
+        text-align: center;
+    }
+    input{
+        width: 200px !important;
+    }
 }
