@@ -28,8 +28,8 @@ input{
     color: black;
 }
 img{
-      width: 50px;
-     height: 60px;
+      width: 40px;
+     height: 40px;
 }
 .black{
 
@@ -85,10 +85,19 @@ button{
 }
 @media only screen and (max-width: 400px) {
     .bod{
+        width: 300px;
+        text-align: center;
+    }
+    input{
+        width: 230px !important;
+    }
+}
+@media only screen and (max-width: 250px) {
+    .bod{
         width: 200px;
         text-align: center;
     }
     input{
-        width: 200px !important;
+        width: 130px !important;
     }
 }

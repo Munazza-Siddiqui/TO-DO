@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBd21t06ir0UOn9hZ7zGCxm6NdQkjec7TI",
+          authDomain: "to-do-app-ms.firebaseapp.com",
+          databaseURL: "https://to-do-app-ms.firebaseio.com",
+          projectId: "to-do-app-ms",
+          storageBucket: "to-do-app-ms.appspot.com",
+          messagingSenderId: "737415802444",
+          appId: "1:737415802444:web:49d106487066168023cee9",
+          measurementId: "G-ZFKJ5J3MB7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+
+<body >
+    <div>
+        <div>
+            <h1>TO-DO LIST</h1>
+        </div>
+        <div class="bod">
+            <div class="black">
+                <button onclick="delall()">DELETE ALL</button></div>
+
+            <input type="text" id="txt" placeholder="Enter here what do you want TO DO?">
+            &nbsp;&nbsp;
+            <img src="free-png-plus-sign-add-button-with-plus-sign-in-a-circle-comments-980.png"  alt="" onclick="add('txt')">
+
+            <ol id="list"></ol>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
